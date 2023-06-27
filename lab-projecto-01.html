@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab</title>
+</head>
+<body>
+    <header>
+        <h1>Introdução HTML</h1>
+        <hr>
+    </header>    
+    <main>
+        <section id="indice">
+            <h2 id="indice">Índice</h2>
+            <ul>
+                <li><a href="#historia-web">História da WEB</a></li>
+                <li><a href="#o-que-sao-clientes">O que são Clientes</a></li>
+                <li><a href="#o-que-sao-servers">O que são Servers</a></li>
+                <li><a href="#linguagens-de-programacao">Linguagens de programação</a></li>
+                <li><a href="#intro-HTML">Introdução ao HTML na prática</a></li>
+                <li><a href="#tag-atributos">Tag e seus atributos</a></li>
+            </ul>
+        <hr>    
+        </section>
+        <section id="conteudo">
+            
+            <h2 id="historia-web">História da WEB</h2>
+            <small><a href="#indice">Voltar</a></small>
+
+            <p>
+                <strong>A história da web</strong> teve início com os primeiros computadores eletrônicos e sua evolução ao longo do tempo. Os primeiros computadores, como o <strong>ENIAC</strong> e o <strong>Colossus</strong>, surgiram durante a Segunda Guerra Mundial, utilizando tecnologia mecânica e eletrônica para realizar cálculos complexos. A partir daí, grandes avanços foram feitos por nomes como <strong>Alan Turing</strong>, <strong>Konrad Zuse</strong> e <strong>John W. Mauchly</strong>, impulsionando o desenvolvimento de computadores eletrônicos programáveis.
+            </p>
+            <p>
+                Na década de 1950, os computadores eletrônicos evoluíram, tornando-se mais acessíveis e comercialmente viáveis. O <strong>IBM 650</strong> foi um marco importante, sendo um dos primeiros computadores de grande escala a ser amplamente adotado.
+            </p>
+            <p>
+                Nos anos 1960 e 1970, surgiram várias contribuições significativas, incluindo o desenvolvimento da interface gráfica do usuário por <strong>Douglas Engelbart</strong> e os protocolos de comunicação de rede <strong>TCP/IP</strong> por <strong>Vint Cerf</strong> e <strong>Robert E. Kahn</strong>, que são considerados os pais da internet.
+            </p>
+            <p>
+                Na década de 1980, <strong>Bill Gates</strong> e <strong>Paul Allen</strong> fundaram a <strong>Microsoft</strong>, desempenhando um papel crucial na popularização dos computadores pessoais e do software.
+            </p>
+            <p>
+                Em 1989, <strong>Tim Berners-Lee</strong> criou a <strong>World Wide Web</strong>, revolucionando a forma como compartilhamos e acessamos informações na internet.
+            </p>
+            <p>
+                Esses são apenas alguns dos principais nomes e eventos ao longo da história da web. Cada avanço tecnológico contribuiu para a criação da internet como a conhecemos hoje, possibilitando a conectividade global e transformando a maneira como vivemos, trabalhamos e nos comunicamos.
+            </p>
+
+            <hr>
+
+            <h2 id="o-que-sao-clientes">O que são Clientes</h2>
+            <small><a href="#indice">Voltar</a></small>
+            <p>
+                Os <em>clientes</em>, em relação à web, são os softwares ou aplicativos utilizados pelos usuários para acessar e interagir com os serviços disponíveis na internet. Eles são responsáveis por solicitar e exibir conteúdos da web, como páginas da web, aplicativos web, vídeos, imagens, entre outros.
+            </p>
+            <p>
+                Alguns dos principais navegadores utilizados no lado do <em>cliente</em> são:
+            </p>
+            <ol>
+                <li><strong>Google Chrome</strong>: Desenvolvido pelo <em>Google</em>, o Chrome é um navegador amplamente utilizado em todo o mundo, conhecido por sua velocidade, recursos avançados e compatibilidade.</li>
+                <li><strong>Mozilla Firefox</strong>: O Firefox é um navegador de código aberto desenvolvido pela <em>Mozilla Foundation</em>, que prioriza a privacidade e a segurança dos usuários.</li>
+                <li><strong>Safari</strong>: Desenvolvido pela <em>Apple</em>, o Safari é o navegador padrão nos dispositivos iOS e macOS, oferecendo integração com os produtos da Apple e uma experiência otimizada para esses sistemas.</li>
+                <li><strong>Microsoft Edge</strong>: O Edge é o navegador desenvolvido pela <em>Microsoft</em>, que substituiu o Internet Explorer. Ele oferece suporte a recursos modernos da web e é compatível com os sistemas operacionais Windows 10 e macOS.</li>
+            </ol>
+            <p>
+                <em>Aplicações web</em> são softwares acessados através de um navegador, onde os recursos e funcionalidades são executados no servidor e entregues ao <em>cliente</em> por meio da interface do navegador. As <em>aplicações web</em> não precisam ser instaladas no dispositivo do usuário e podem ser acessadas a partir de diferentes dispositivos.
+            </p>
+            <p>
+                Já os <em>aplicativos</em> são softwares desenvolvidos especificamente para serem instalados em dispositivos, como smartphones e tablets. Eles podem ser baixados e instalados diretamente no dispositivo do usuário, aproveitando os recursos e funcionalidades do sistema operacional do dispositivo.
+            </p>
+            <p>
+                No contexto dos dispositivos móveis, o lado do <em>cliente</em> desempenha um papel fundamental. Os dispositivos móveis, como smartphones e tablets, possuem recursos de hardware e sistemas operacionais que permitem a execução de <em>aplicativos móveis</em> nativos e a interação com <em>aplicativos web</em> através dos navegadores. Os navegadores móveis, como o Chrome e o Safari, são utilizados para acessar sites e <em>aplicativos web</em> em dispositivos móveis, proporcionando uma experiência de navegação adequada para telas menores e interfaces sensíveis ao toque. Além disso, os dispositivos móveis também têm acesso a recursos específicos, como sensores de localização, câmeras e notificações, que podem ser explorados pelas <em>aplicações móveis</em> para oferecer funcionalidades adicionais e uma experiência personalizada aos usuários.
+            </p>
+
+            <hr>
+
+            <h2 id="o-que-sao-servers">O que são Servers?</h2>
+            <small><a href="#indice">Voltar</a></small>
+
+            <p>Os <em>servers</em> são computadores ou sistemas responsáveis por fornecer serviços, recursos ou armazentamento de dados a outros dispositivos, conhecidos como <em>clientes</em>. Eles são equipados com <em>hardwares</em> e <em>softwares</em> específicos para gerenciar e atender às solicitações dos <em>clientes</em>.
+            </p>
+            <p>
+                Os <em>hardwares</em> utilizados em <em>servidores</em> podem incluir processadores potentes, grande capacidade de armazenamento de dados, memória RAM e conexões de rede de alta velocidade. Os <em>softwares</em> em <em>servidores</em> incluem sistemas operacionais de servidor, como o <em>Linux</em> ou o <em>Windows Server</em>, além de aplicativos e serviços especializados, como servidores de banco de dados, servidores de e-mail, servidores web, entre outros.    
+            </p>
+            <p>Existem diferentes tipos de <em>servidores</em>, cada um projetado para um propósito específico. Alguns exemplos incluem:</p>
+
+            <ol>
+                <li><strong>Servidores de arquivos</strong>: Responsáveis pelo armazenamento e compartilhamento de arquivos em rede.</li>
+                <li><strong>Servidores de banco de dados</strong>: Utilizados para armazenar e gerenciar grandes volumes de dados de forma eficiente.</li>
+                <li><strong>Servidores de e-mail</strong>: Responsáveis pelo envio, recebimento e armazenamento de e-mails.</li>
+                <li><strong>Servidores web</strong>: Utilizados para hospedar sites e disponibilizá-los para acesso através da internet.</li>
+            </ol>
+            <p>
+                Os <strong>servers</strong> também desempenham um papel importante como hospedagem de sites. Nesse contexto, um <strong>servidor</strong> é configurado para armazenar os arquivos de um site e disponibilizá-los para acesso dos visitantes da web. O <strong>servidor</strong> responde às solicitações dos navegadores dos usuários, enviando as páginas do site para visualização.
+            </p>
+            <p>
+                Em resumo, os <strong>servers</strong> são computadores ou sistemas que fornecem serviços, recursos ou armazenamento para outros dispositivos, utilizando <strong>hardwares</strong> e <strong>softwares</strong> especializados. Eles desempenham várias funções, como hospedar sites, gerenciar bancos de dados, armazenar arquivos e fornecer serviços de rede.
+            </p>
+
+            <hr>
+
+            <h2 id="linguagens-de-programacao">Linguagens de programação</h2>
+            <small><a href="#indice">Voltar</a></small>
+            
+            <p>
+                As linguagens de programação <strong>server side</strong> são utilizadas no servidor para processar e gerar dinamicamente as páginas da web antes de enviá-las para o <em>cliente</em>. Exemplos de linguagens <strong>server side</strong> incluem <em>PHP</em>, <em>Python</em>, <em>Ruby</em> e <em>Java</em>. Essas linguagens são responsáveis por interagir com bancos de dados, processar formulários e executar lógica de negócios no lado do servidor.
+            </p>
+            <p>
+                As linguagens de programação <strong>client side</strong> são executadas no navegador do <em>cliente</em>, ou seja, no dispositivo do usuário. Elas são responsáveis por manipular a interface do usuário, realizar validações e interações dinâmicas. Exemplos de linguagens <strong>client side</strong> são <em>JavaScript</em>, <em>HTML</em> e <em>CSS</em>. O <em>JavaScript</em> é a linguagem principal para programação <strong>client side</strong>, permitindo a criação de interatividade e dinamismo nas páginas da web.
+            </p>
+            <p>
+                O <strong>HTML</strong> (HyperText Markup Language) é a linguagem de marcação utilizada para estruturar e exibir conteúdo em uma página da web. É responsável por definir a estrutura do documento, como parágrafos, títulos, links, imagens e outros elementos. O <em>HTML</em> utiliza tags para marcar e estruturar o conteúdo, permitindo que os navegadores interpretem e exibam corretamente as informações.
+            </p>
+
+            <hr>
+            
+            <h2 id="intro-HTML">Introdução ao HTML na prática</h2>
+            <small><a href="#indice">Voltar</a></small>
+
+            <p>
+                Primeiramente é importante ressaltar quais serão as ferramentas utilizadas no desenvolvimento do aprendizado em HTML. Apesar de podermos utilizar apenas um editor de textos simples, podemos utilizar uma <strong>IDE</strong>, <em>Integrarted Development Environment</em>, que é uma ferramenta de desenvolvimento para editar códigos. Neste caso iremos utilizar o <em>Visual Studio Code</em>
+            </p>
+            <p>
+                Uma dica importante é utilizarmos o <em>Inspetor de elementos</em> do navegador para poder verificar o comportamento das páginas que escrevemos dentro do navegador, como também entender quais métodos de escrita HTML são utilizados por outros sites. Essa ferramenta pode ser acessada com <em>Ctrl + Shift + l</em> ou simplesmente teclando <em>F12</em>.
+            </p>
+            <p>
+                Começando iremos entender qual é a estrutura mais básica do documento HTML: 
+                <ul>
+                    <li><strong>Html</strong>: Essa é a estrutura principal, dentro dela estão todas as outras, como o caso da tag <em>head</em> e <em>body</em>.</li>
+                    <li><strong>Head</strong>: é o espaço do documento HTML que contém informações de identificação do documento, metadados, e principalmente o nome do documento que será exibido na aba do navegador.</li>
+                    <li><strong>Body</strong>: É a parte do documento HTML, que contém toda a estrutura da página que é exibida no navegador, onde de fato o <em>client side</em> consegue navegar e utilizar os componentes da página web.</li>
+                </ul>
+            </p>
+
+            <hr>
+
+            <h2 id="tag-atributos">Tags e seus atributos</h2>
+            <small><a href="#indice">Voltar</a></small>
+
+            <p>As <strong>tags HTML</strong> são elementos utilizados para marcar e estruturar o conteúdo de uma página da web. Elas fornecem instruções aos navegadores sobre como exibir e interpretar o conteúdo.</p>
+
+            <p>Cada <strong>tag</strong> HTML é representada por um nome entre os símbolos "&lt;" e "&gt;". Existem <strong>tags</strong> de abertura, como "&lt;p&gt;", que indicam o início de um elemento, e <strong>tags</strong> de fechamento, como "&lt;/p&gt;", que indicam o fim do elemento. Além disso, algumas <strong>tags</strong> não possuem conteúdo entre elas, sendo chamadas de <strong>tags</strong> vazias ou auto-fecháveis, como "&lt;img /&gt;".</p>
+
+            <p>Além das <strong>tags</strong>, as <strong>tags HTML</strong> também podem conter <strong>atributos</strong>. Os <strong>atributos</strong> são adicionados às <strong>tags</strong> para fornecer informações adicionais sobre o elemento ou modificar o seu comportamento. Os <strong>atributos</strong> são compostos por um nome e um valor, separados por um sinal de igual (=). Por exemplo, o atributo "href" na <strong>tag</strong> "&lt;a&gt;" é usado para especificar o destino de um link.</p>
+
+            <p>Exemplo de uma <strong>tag HTML</strong> com <strong>atributos</strong>:</p>
+
+            <code>&lt;a href="https://www.exemplo.com" target="_blank"&gt;Link para Exemplo&lt;/a&gt;</code>
+            
+            <p>Neste exemplo, a <strong>tag</strong> "&lt;a&gt;" é utilizada para criar um link. O atributo "href" especifica o URL de destino, enquanto o atributo "target" define que o link deve ser aberto em uma nova janela do navegador.</p>
+
+            <p>Em resumo, as <strong>tags HTML</strong> são elementos utilizados para marcar e estruturar o conteúdo de uma página da web, e os <strong>atributos</strong> fornecem informações adicionais ou modificam o comportamento dos elementos.</p>
+
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <section id="referencias">
+            <h2>Referências</h2>
+            <small><a href="#indice">Voltar</a></small>
+
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">w3schools</a></li>
+            </ul>
+        </section>    
+    </footer>
+</body>
+</html>
